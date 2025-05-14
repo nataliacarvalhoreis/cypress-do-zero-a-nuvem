@@ -6,7 +6,7 @@ Um projeto exemplo do curso "Cypress, do Zero a Nuvem" da escola Talking About T
 
 É necessário que você tenha git, Node.js e npm instalado para clonar e executar este projeto.
 
-Eu utilizei as versões 2.42.1, v20.13.1 e 10.8.1 do git, Node.js e npm, respectivamente. Sugiro que você utilize as mesmas versões ou versões mais recentes LTS.
+> Eu utilizei as versões 2.42.1, v20.13.1 e 10.8.1 do git, Node.js e npm, respectivamente. Sugiro que você utilize as mesmas versões ou versões mais recentes LTS.
 
 ## Instalação
 
@@ -27,4 +27,4 @@ Execute o comando 'npm run test:mobile' para rodar em modo headless em um viewpo
 Ou 'npm run cy:open:mobile' para rodar no viewport Mobile com a Cypress App.
 ___
 
-Este é um curso da **Escola Talking About Testing**.
+Este é um curso da **Escola Talking About Testing** executado por **Natália Sousa**.
