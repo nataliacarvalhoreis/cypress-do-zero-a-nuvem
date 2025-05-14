@@ -1,28 +1,30 @@
 # 🌲 Cypress, do Zero à Nuvem ☁️
 
-👋 Seja bem-vindo(a)!
+Um projeto exemplo do curso "Cypress, do Zero a Nuvem" da escola Talking About Testing
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai amar esse curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender?
+É necessário que você tenha git, Node.js e npm instalado para clonar e executar este projeto.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar upload de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
-- Como executar os testes em um _workflow_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como integrar seu _workflow_ de integração contínua com o Cypress Cloud (o serviço de gestão de testes do Cypress na nuvem)
+Eu utilizei as versões 2.42.1, v20.13.1 e 10.8.1 do git, Node.js e npm, respectivamente. Sugiro que você utilize as mesmas versões ou versões mais recentes LTS.
 
-## Vamos começar?
+## Instalação
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Execute 'npm install'(ou 'npm i') para instalar as dependências do projeto.
 
+## Testes
+
+Neste projeto você pode rodar os testes em modo Desktop ou Mobile.
+
+### Desktop
+
+Execute o comando 'npm test'(ou 'npm t') para rodar em modo headless em um viewport Desktop.
+Ou 'npm run cy:open' para rodar no viewport Desktop com a Cypress App.
+
+### Mobile
+
+Execute o comando 'npm run test:mobile' para rodar em modo headless em um viewport Mobile.
+Ou 'npm run cy:open:mobile' para rodar no viewport Mobile com a Cypress App.
 ___
 
 Este é um curso da **Escola Talking About Testing**.
