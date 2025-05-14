@@ -10,7 +10,7 @@ Um projeto exemplo do curso "Cypress, do Zero a Nuvem" da escola Talking About T
 
 ## Instalação
 
-Execute 'npm install'(ou 'npm i') para instalar as dependências do projeto.
+Execute `npm install`(ou `npm i`) para instalar as dependências do projeto.
 
 ## Testes
 
@@ -18,13 +18,13 @@ Neste projeto você pode rodar os testes em modo Desktop ou Mobile.
 
 ### Desktop
 
-Execute o comando 'npm test'(ou 'npm t') para rodar em modo headless em um viewport Desktop.
-Ou 'npm run cy:open' para rodar no viewport Desktop com a Cypress App.
+Execute o comando `npm test`(ou `npm t`) para rodar em modo headless em um viewport Desktop.
+Ou `npm run cy:open` para rodar no viewport Desktop com a Cypress App.
 
 ### Mobile
 
-Execute o comando 'npm run test:mobile' para rodar em modo headless em um viewport Mobile.
-Ou 'npm run cy:open:mobile' para rodar no viewport Mobile com a Cypress App.
+Execute o comando `npm run test:mobile` para rodar em modo headless em um viewport Mobile.
+Ou `npm run cy:open:mobile` para rodar no viewport Mobile com a Cypress App.
 ___
 
 Este é um curso da **Escola Talking About Testing** executado por **Natália Sousa**.
